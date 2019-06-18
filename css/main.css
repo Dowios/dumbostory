@@ -1,0 +1,40 @@
+.banner{
+	width: 100%;
+	height: 420px;
+	background-image: url("../au_movies_dumbo_intl_payoff_hero_r_c28d52d9.jpeg");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.title{
+	color: white;
+	font-size: 100px;
+	text-align: right;
+}
+.subtitle{
+	font-size: 40px;
+	text-align: right;
+}
+.subbanner{
+	vertical-align: middle;
+}
+body{
+	background-image: url("../modern-blue-memphis-background_1035-9794.jpg");
+	background-repeat: repeat;
+}
+body::before{
+	content: "";
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1400px;
+	background-color: #fff;
+	opacity: 0.8;
+}
+.intro{
+	background-color: #93BED9;
+}
+.jumbotitle{
+	opacity: 0.8;
+}
