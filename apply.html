@@ -14,7 +14,7 @@
   <body>
     <ul class="nav nav-tabs bg-white">
       <li class="nav-item">
-        <a class="nav-link active" href="#">首頁</a>
+        <a class="nav-link active" href="index.html">首頁</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">資訊</a>
@@ -40,28 +40,53 @@
         <div class="col">
           <div class="jumbotron intro">
             <div class="container">
-              <h1 class="display-4 text-white jumbotitle">為什麼有小飛象盃說故事大賽？</h1>
-              <p class="lead text-white">為鼓勵現在國小學童認真讀書之餘，也能夠學習課外知識。特此舉辦「小飛象盃說故事大賽」，希望能夠網羅各地的好故事，讓小學生們一同來欣賞。</p>
+              <h1 class="display-4 text-white jumbotitle">立即報名</h1>
+              <p class="lead text-white">請填妥報名資訊，按下下方報名鍵即可。<br>注意：每個團隊上限為四人，加上一名指導老師。</p>
             </div>
           </div>
         </div>
       </div>
       <hr>
-      <div class="d-flex flex-row justify-content-center mt-5">
-        <div class="card" style="width: 18rem;">
-          <img src="pngtree-literary-abstract-white-clouds-sun-illustration-background-cloudssky-backgroundcartoon-backgroundcreative-image_54812.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">劇本創作組</h5>
-            <p class="card-text">你有厲害的劇本寫作天賦無法嶄露嗎？投稿到劇本創作組吧！</p>
-            <a href="apply.html" class="btn btn-primary">去投稿</a>
-          </div>
+      <div class="row mt-5">
+        <div class="col-3"></div>
+        <div id="apply" class="col-6 p-5 shadow rounded border border-warning">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">班級名稱</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="OOO班">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">團隊成員</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="指導老師">
+            </div>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="學生一">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="學生二">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="學生三">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="學生四">
+              </div>
+            </div>
+            <div class="form-group mt-5">
+              <label for="formGroupExampleInput">劇本上傳</label>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile01"
+                  aria-describedby="inputGroupFileAddon01">
+                <label class="custom-file-label" for="inputGroupFile01">上傳檔案</label>
+              </div>
+            </div>
+            <a href="success.html"><div id="submit" class="btn btn-warning">報名</div></a>
+          </form>
         </div>
+        <div class="col-3"></div>
       </div>
     </div>
-    <blockquote class="blockquote text-center mt-5 bg-white">
-      <p class="mb-0">心若在，夢就在。</p>
-      <footer class="blockquote-footer">劉歡<cite title="Source Title">從頭再來</cite></footer>
-    </blockquote>
     
 
     <!-- Optional JavaScript -->
